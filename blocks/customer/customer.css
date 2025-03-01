@@ -1,0 +1,44 @@
+.customer-container {
+    background: linear-gradient(90deg, #8B1E3F, #3B0B61, #1E0F8B);
+
+}
+
+.customer-wrapper {
+    padding: 0 !important;
+
+}
+
+.customer {
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.customer p {
+    font-size: 24px;
+    margin: 10px 0;
+    color: white;
+}
+.button-container {
+    margin: 20px 10px;
+    display: inline-block;
+}
+.button {
+    display: inline-block;
+    background: white;
+    color: #3B0B61;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background: #f0f0f0;
+}
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
